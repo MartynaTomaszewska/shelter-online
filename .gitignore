@@ -1,0 +1,51 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/frontend/animotel/dist
+/frontend/animotel/dist-server
+/frontend/animotel/tmp
+/frontend/animotel/out-tsc
+
+# dependencies
+/frontend/animotel/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/frontend/animotel/.sass-cache
+/frontend/animotel/connect.lock
+/frontend/animotel/coverage
+/frontend/animotel/libpeerconnection.log
+npm-debug.log
+testem.log
+/frontend/animotel/typings
+
+# e2e
+/frontend/animotel/e2e/*.js
+/frontend/animotel/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Django
+*.pyc
+*~
+__pycache__
+shelter-online-venv
+db.sqlite3
+/backend/static
